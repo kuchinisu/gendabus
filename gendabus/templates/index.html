@@ -1,0 +1,46 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="{% static 'style/estilo.css' %}">
+    
+    
+    <script src="{% static 'JavaScript/googmap.js' %}"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initMap">
+    </script>
+
+    <!--   
+    <script src="{% static 'JavaScript/socketTest.mjs' %}"></script>
+        -->
+    <!--   -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="map"></div>
+    
+    <!-- -->
+    <!-- -->
+    <div id="navbar">
+        <div id = "infoCamion"> 
+        <div id="ruta">hola</div>
+        <div id = "numeroDePasajeros"></div>
+        <div id = "estadoFuncional"></div>
+        </div>
+    </div>
+
+    <div id="footer">el pepe</div>
+</body>
+</html>
+<!--
+        <ul id="infoCamion">
+            <li id="ruta"></li>
+            <li id="numeroDePasajeros"></li>
+            
+        </ul>
+        -->

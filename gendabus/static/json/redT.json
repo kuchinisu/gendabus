@@ -1,0 +1,20 @@
+{
+    "floresBorja": 
+{
+    "1": 
+    {
+        "IdaVuelta": ["iglesia", "cancha"], 
+        "u": [26.895001006158008, -101.4167505371094], 
+        "np": 10, 
+        "estado": "aver\u00eda, no recibe a pasajeros"}, 
+        "2": 
+        {
+        "IdaVuelta": ["iglesia", "progreso"], 
+        "u": [26.891201006158017, -101.42055053710952], 
+        "np": 30, 
+        "estado": "funcional"
+        
+    }
+        
+    }
+    }
